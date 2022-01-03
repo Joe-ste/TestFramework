@@ -7,7 +7,7 @@ class TestOpenAccount:
     def test_personal_detail(self):
 
         # open https://acy.com/en/open-live-account
-        page = LanchPage(self.driver, self.wait)
+        page = LanchPage(self.driver)
         # click path
         #page.click_path()
         # select account type
